@@ -1,4 +1,5 @@
-Asignación de manuscrito 3. Introducción
+Asignación de manuscrito 2. Técnicas de procesamiento y analíticas
+(subsección de la Metodología)
 ================
 <b>José-Ramón Martínez-Batlle</b> (<jmartinez19@uasd.edu.do>) <br>
 Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br>
@@ -6,7 +7,9 @@ Santo Domingo, República Dominicana
 
 <!-- README.md se genera a partir de README.Rmd. Por favor, edita ese archivo. -->
 
-> Entrega: 28 de noviembre, 23:59 horas.
+# Asignación de manuscrito 2. Técnicas de procesamiento y analíticas (subsección de la Metodología)
+
+> Plazo de entrega: 14 de noviembre, 23:59 horas.
 
 > Para el caso de documentos, entrega tu archivo vía correo electrónico
 > en formato nativo. En el caso de usar software de interfaz gráfica,
@@ -16,264 +19,153 @@ Santo Domingo, República Dominicana
 > carpeta (comprimida en ZIP) conteniendo los archivos necesarios para
 > compilar el PDF.
 
-# Asignación de manuscrito 3. Introducción
+En la investigación científica, una vez que los datos han sido
+colectados, es crucial procesarlos y analizarlos. A estas alturas, ya
+habrás colectado (o estás por colectar) muestras basándote en un diseño
+preestablecido que te permitirá aplicar múltiples técnicas para
+responder a diferentes preguntas. Esta etapa es esencial para extraer
+información significativa de los datos crudos y para responder preguntas
+de investigación. En esta asignación, se te pide que redactes la
+subsección “Técnicas de Procesamiento y Analíticas” para tu manuscrito.
 
-## ¿Qué contiene una introducción?
+> En un escenario ideal, la o las técnicas que emplearías, las
+> seleccionarías con antelación, antes de realizar el trabajo de campo,
+> ajustándote a unos objetivos y preguntas a responder.
 
-**La introducción responde a la pregunta ¿Por qué?** No sueles
-justificar una acción, un deseo o un estudio con una simple oración
-gramatical. Das contexto y, tan pronto planteas la imagen global del
-tema en cuestión (e.g. avances realizados hasta ahora, vacíos
-existentes), diriges a el/la lector/a hacia el planteamiento del
-problema. Normalmente, un problema por resolver es algo muy global
-(piensa en él como el tradicional “objetivo general”), por lo que te
-enfocas en preguntas de investigación específicas (piensa en éstas como
-si fuesen “objetivos específicos”).
+## Entregable
 
-Normalmente verás que, en tutoriales sobre redacción, se recomienda que,
-en el último párrafo de la introducción formules tus preguntas de
-investigación o tus objetivos; si te es posible, también formula
-hipótesis para cada pregunta. Considera una hipótesis como una posible
-respuesta a cada pregunta, pero no te esfuerces en formular “la
-hipótesis correcta”; formula una posible respuesta a cada pregunta de
-acuerdo a lo que entiendas lógico.
+- Documento, **redactado en tiempo pasado** que contenga la subsección
+  “Técnicas de Procesamiento y Analíticas”. El tiempo pasado es el
+  habitual en la metodología de un manuscrito, y dependiendo de la voz
+  elegida, usarías expresiones tales como las siguientes:
 
-Algunas referencias generales sobre cómo redactar la introducción que
-considero útiles son estas:
+  - Voz activa: “Realicé un análisis exploratorio inicial …”.
 
-- [Pautas para elaborar una introducción en
-  español](http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0120-53072008000100001).
+  - Voz pasiva: “Se realizó un análisis exploratorio inicial …”.
 
-- [Estas pautas, en
-  inglés](https://www.editage.com/insights/4-step-approach-to-writing-the-introduction-section-of-a-research-paper).
+  - En la asignación de manuscrito anterior me referí al uso de la voz
+    en redacción. Recuerda que debes ser consistente con la voz elegida
+    a lo largo de todo el manuscrito.
+
+- El texto que entregarás en esta asignación, lo reservarás para
+  insertarlo en la sección “Metodología” de tu manuscrito cuando lo
+  ensambles íntegramente al final del semestre. Por esta razón, no
+  “caigas” en la tentación de redactar a modo de una relación de puntos,
+  sino de escribir texto fluido que formará parte de tu manuscrito.
+
+- **Pon en práctica lo que hayas podido aprender en la asignación
+  “[Practica 2. Métricas básicas de ecología numérica, reproducibilidad,
+  redacción, estilos de formato, tablas, citas y
+  referencias”](https://github.com/biogeografia-202302/practicas/blob/main/practica-02.md)**.
+  Si recuerdas, en esa asignación simulaste, en pequeño, la redacción de
+  un manuscrito íntegro con una muestra pequeña y ficticia.
+
+## Contenido a incluir
+
+1.  **Análisis Exploratorio de Datos (AED)**: Describe cómo realizaste
+    el AED para tus datos. Esta descripción debe incluir, pero no
+    limitarse a:
+
+    - Herramientas y paquetes de software utilizados.
+    - Métodos estadísticos aplicados.
+    - Visualizaciones generadas (histogramas, boxplots, etc.).
+    - Cualquier transformación de datos realizada.
+
+2.  **Técnicas de Ecología Numérica**: Deberás elegir **una** de las
+    siguientes técnicas:
+
+    1.  Análisis de Agrupamiento.
+
+    2.  Técnicas de Ordenación.
+
+    3.  Análisis de Diversidad + Análisis de Agrupamiento.
+
+    Describe con detalle cómo aplicaste la técnica seleccionada,
+    justifica tu elección y cómo esta técnica te ayudará a responder tus
+    preguntas de investigación.
+
+3.  **Citas Apropiadas**: Asegúrate de citar adecuadamente todos los
+    métodos, técnicas, paquetes de software, scripts, repositorios de
+    GitHub y cualquier otro recurso que hayas utilizado.
+
+4.  **Uso Apropiado de Figuras y Tablas**:
+
+    - Si incluyes figuras y/o tablas, asegúrate de que cada una tenga un
+      pie de figura o tabla descriptivo.
+    - Todas las figuras y tablas deben ser referenciadas en el texto.
+    - Asegúrate de que las figuras y tablas sean claras y comprensibles
+      por sí mismas, sin necesidad de referirse al texto principal para
+      su interpretación.
+
+5.  **Otros elementos a considerar**:
+
+    - Consistencia en el uso de terminología.
+    - Claridad en la descripción de los métodos.
+    - Justificación de las decisiones tomadas durante el análisis.
+
+## Formato
+
+- Redacta tu subsección siguiendo las recomendaciones de formato sobre
+  el uso consistente con el uso de estilos. En la asignación anterior ya
+  recomendé una plantilla de formato, que se encuentra alojada en [esta
+  ruta](data/plantilla-manuscrito.dotx). No obstante, sé libre en este
+  sentido, lo importante es la claridad y el uso de un formato
+  consistente.
+
+- Reitero, asegúrate de utilizar una voz (activa o pasiva) de manera
+  consistente a lo largo de tu texto.
+
+## Algunas recomendaciones sobre redacción de manuscritos científicos
+
+A continuación, te dejo algunos enlaces a referencias que considero
+útiles, sobre cómo redactar los resultados (algunas tratan sobre
+redacción de artículos en general):
+
+- [Breves pautas, en
+  inglés](https://www.editage.com/insights/the-secret-to-writing-the-results-and-discussion-section-of-a-manuscript).
   Puedes usar el traductor [DeepL](https://www.deepl.com/translator),
   porque produce frases más naturales.
 
-## ¿Cómo proceder?
+Cinco guías, en inglés, que considero están bien elaboradas, sobre cómo
+redactar un artículo científico (consulta la sección sobre cómo redactar
+los *resultados* en cada una):
 
-Mi recomendación es que sigas este flujo:
+- [Demystifying the Journal
+  Article](https://www.insidehighered.com/advice/2017/05/09/how-write-effective-journal-article-and-get-it-published-essay)
 
-1.  Investiga sobre tu tema de investigación. La parte más difícil al
-    formular un estudio son los denominados “vacíos de investigación”
-    (*research gaps*). Para identificar un vacío, lee sobre el tema
-    específico en cuestión, sobre las técnicas que comúnmente se usan en
-    el mismo, y los hallazgos más comunes. Sin embargo, es importante
-    que en este punto evites entrar en literatura especializada para no
-    abrumarte. Consulta por ejemplo los libros de texto de la asignatura
-    y fuentes divulgativas, como Wikipedia o vídeos. Esto te preparará
-    para los próximos pasos, que son los más importantes.
+- [How to write a scientific manuscript for
+  publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3626472/)
 
-2.  PASO CLAVE: **busca y revisa artículos disponibles sobre el tema**.
-    Hay herramientas de IA para realizar una revisión bibliografía. Usa
-    la IA de tu preferencia como tutor, como asistente (ver Consensus,
-    Obsidian, Litmaps, ChatGPT). ChatGPT está ofreciendo ahora, a sus
-    clientes por suscripción, la posibilidad de crear proyectos, lo cual
-    ayuda bastante a especializar la herramienta en tus necesidades
-    específicas. Mi recomendación, si usas IA, es que no te quedes con
-    una única herramienta, que dudes siempre de cualquier lista de
-    referencias, y que nunca, nunca, nunca, aceptes texto de la IA sin
-    que lo hayas procesado tú misma/o. Por otro lado, también es
-    importante que no te pierdas en el océano de fuentes que
-    encontrarás. Usa palabras clave dirigidas, destacando tema, técnicas
-    y área geográfica de estudio. A medida que leas fuentes, haz lo
-    siguiente:
+- [11 steps to structuring a science paper editors will take
+  seriously](https://www.elsevier.com/connect/11-steps-to-structuring-a-science-paper-editors-will-take-seriously)
 
-    - Lleva cuenta de los artículos revisados. Los usarás en tu
-      introducción y los tendrás que referir apropiadamente. Recuerda
-      usar alguna herramienta de apoyo para citas y lista de
-      referencias, como Zotero (se instala en tu PC como una app de
-      escritorio), o las propias herramientas incorporadas en tu
-      procesador de texto elegido. Recuerda que el estilo de cita
-      requerido es el archiconocido APA (por defecto, elegimos la 7ma
-      edición).
-    - De cada artículo, concéntrate en su resumen y, si acaso, lee la
-      última parte de la introducción. De manera global, cuando hayas
-      revisado varios trabajos, identifica los problemas no resueltos
-      que se destacan en las más recientes publicaciones. Los vacíos de
-      investigación son muy importantes, porque tú precisamente te
-      concentrarás en esos vacíos.
+- [Cómo escribir un artículo científico por primera
+  vez](https://www.sciencedirect.com/science/article/abs/pii/S1134593417300040)
+  (necesitarás usar [SciHub](https://sci-hub.se/) para descargarlo)
 
-3.  PASO CLAVE: **redacta varias preguntas de investigación candidatas y
-    “revisita” las fuentes que consultaste, ampliando en caso
-    necesario**. Durante esta “revisita” de la bibliografía, concéntrate
-    en los vacíos existentes en la actualidad, y cuál o cuáles de esos
-    vacíos rellenas con tu estudio. Dado que ya tienes tema elegido e,
-    incluso, quizá hasta resultados tienes, este paso te resultará
-    relativamente fácil. Ten presente que esta no es la manera “formal”
-    de redactar un artículo: normalmente, primero se formulan preguntas,
-    luego se va al campo (si aplica) y, siguiendo el método, se obtienen
-    datos para producir resultados resultados; recuerda que en la
-    asignatura lo hicimos al revés. No obstante, el enfoque seguido en
-    la materia funciona bien, pues es más fácil investigar cuando lo que
-    más interesa son los resultados y las técnicas. Amplío algunos
-    detalles relevantes sobre este paso clave:
-
-    - Cuando revisites las fuentes, elige las que aporten a tus
-      preguntas/objetivos; las que no aporten, descártalas. Profundiza
-      en los artículos que aporten, leyendo otras secciones, como la
-      metodología y la discusión. También, identifica la o las
-      aportaciones más relevantes en cada caso (conclusiones).
-    - Si una fuente es útil, normalmente citará otras relacionadas;
-      rescata esas otras fuentes también para ampliar tu biblioteca.
-    - Anota una oración sobre cómo el artículo consultado se relaciona o
-      puede ser útil para tu pregunta de investigación (los lectores de
-      PDF permiten anotar, pero Zotero también tiene herramientas para
-      ello; en esto de anotar PDF, Obsidian es bueno, y también el
-      ChatGPT).
-    - Es común que citemos un mínimo de 10 fuentes muy relacionadas con
-      nuestro problema de investigación. No obstante, la lista de
-      referencias final de tu manuscrito tendrá más de 10 entradas,
-      porque hay artículos conexos o metodológicos que también deben
-      citarse.
-    - Durante la revisión, ten presente que aplicarás tu investigación
-      al caso dominicano, por lo que los artículos de tu tema que traten
-      sobre RD o del entorno próximo, son importantes.
-
-4.  Redacta tu introducción siguiendo el esquema de la [sección
-    anterior](#qué-contiene-una-introducción)
-
-## Instrucciones complementarias
-
-1.  **Contenido y tiempo verbal:** Dado que estás redactando la sección
-    “Introducción”, te centrarás sólo en el “**por qué**”. Como te
-    expliqué arriba, en la introducción revisas trabajos anteriores,
-    citas, identificas vacíos de investigación, formulas preguntas e
-    hipótesis (u objetivos). Esto te obligará a usar dos tiempos
-    verbales:
-
-    - Presente simple: para declarar hechos generales o “verdades”
-      aceptadas (“el proceso tal o cual es fundamental para …”), o para
-      referirte a la literatura existente y a trabajos previos como “Las
-      investigaciones actuales muestran que …”.
-    - Pasado simple: para referirte a investigaciones o descubrimientos
-      específicos que ocurrieron en el pasado, especialmente cuando
-      inicias una idea citando a el/la autor/a. Por ejemplo: “Pérez y
-      colaboradores encontraron que…” o “En un estudio anterior,
-      Pérez (2017) demostró que…”.
-
-2.  **Citas:** Dentro de la redacción vas a necesitar incluir citas.
-    Asegúrate de citar todas tus fuentes de manera adecuada.
-
-3.  **Extensión:** No hay recetas fijas, pero es común no superar una
-    página en la introducción. Asegúrate de ser claro/a y conciso/a en
-    tu redacción.
-
-4.  **Formato:** En cuanto a la forma, redacta el texto entregable
-    aplicando lo aprendido en la [“Practica 2. Métricas básicas de
-    ecología numérica, reproducibilidad, redacción, estilos de formato,
-    tablas, citas y
-    referencias”](https://github.com/biogeografia-202302/practicas/blob/main/practica-02.md).
-
-    - Si usas Microsoft Word o LibreOffice Writer, puedes buscar
-      plantillas de artículos (puedes usar las de algunas editoriales) o
-      usar [esta plantilla](data/plantilla-manuscrito.dotx) si la
-      consideras útil.
-    - Independientemente de la plantilla o el software que elijas, lo
-      importante es que apliques lo aprendido en la práctica 2.
-
-Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
-
-- Investiga sobre qué es una plantilla. Básicamente, es un archivo en el
-  que te puedes basar para crear otros.
-- Al ser una plantilla, si la abres con “doble-click”, se creará un
-  documento basado en ella que posteriormente deberás guardar con un
-  nombre asignado por ti.
-- Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su
-  compatibilidad máxima se consigue en Microsoft Word.
-- La plantilla básicamente contiene definiciones de estilos para el
-  título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo
-  “Normal”), texto de tablas, texto de pies de figuras y tablas,
-  bibliografía, y estilo de párrafo para las figuras (suena raro, pero
-  sí, las figuras “no flotantes”, que se comportan como texto, también
-  tiene definición de estilos). Faltan estilos, como los de autor,
-  viñetas, etc. Los puedes crear libremente.
-- El texto y las figuras que he colocado de ejemplo son un mero relleno.
-  Verás que puse una tabla, una figura, una ecuación, algunas citas y la
-  lista de referencias. Debes borrar todo el contenido de ejemplo, pues
-  es irrelevante para tu manuscrito.
-- No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si
-  ya dispones de un documento donde usas estilos apropiadamente, puedes
-  seguir por esa vía. Si ya tienes un documento comenzado, y quieres
-  basarte en los estilos de esta plantilla, puedes importar sus estilos
-  (los de la plantilla) a tu documento (hay tutoriales sobre ello, como
-  [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
-- No me canso de repetirlo: consulta al tali. Es viable por correo, sólo
-  que es necesario indicar qué problema obtuviste (error, fallo de
-  funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: “*me dio
-  error A al intentar ejecutar B, aquí dejo una captura de pantalla*”.
-
-Finalmente, transcribo el recuadro que ya conoces sobre el tipo de voz a
-usar para refrescarlo nuevamente; asegúrate de seguir estas
-recomendaciones.
-
-> **RECUADRO: recomendaciones básicas de redacción**
->
-> Usa una voz (activa o pasiva) de forma consistente, pero sólo ten
-> presente que la redacción de manuscritos científicos a menudo se
-> utilizan ambas voces, dependiendo del contexto y el mensaje que el/la
-> autor/a quiera transmitir. Veamos algunos ejemplos:
->
-> **Voz activa en manuscrito científicos:**
->
-> - **Analicé** los datos utilizando el software R.
->
-> - El experimento **mostró** que la temperatura afecta directamente la
->   tasa de reacción.
->
-> - Los investigadores **encontraron** una correlación significativa
->   entre las dos variables.
->
-> La voz activa puede hacer que la redacción parezca más directa y
-> clara, y es especialmente útil cuando el/la autor/a quiere enfatizar
-> quién llevó a cabo una acción o cuándo se desea hacer una afirmación
-> fuerte.
->
-> **Voz pasiva en artículos científicos:**
->
-> - Los datos **fueron analizados** utilizando el software R.
->
-> - **Se observó** que la temperatura afecta directamente la tasa de
->   reacción.
->
-> - Una correlación significativa **fue encontrada** entre las dos
->   variables.
->
-> La voz pasiva es común en la redacción científica porque a menudo se
-> prefiere un tono más impersonal, enfocando la atención en los
-> resultados y procedimientos en lugar de en quienes llevaron a cabo la
-> investigación. También puede ser útil cuando no se quiere o no es
-> relevante especificar quién realizó la acción.
->
-> **En todas mis asignaciones, está completamente permitido usar IA
-> (e.g. chatGPT), pero te recomiendo que la uses más como tutor que como
-> redactor**. Tal como te sugerí arriba, no le pidas que te resuelva los
-> problemas del mandato. Pídele que te dé ideas, y que luego tú las
-> mejores o las descartes. No abuses tampoco del texto, pues mucha
-> redacción no siempre es mejor; en redacción de ensayos “menos es más”.
-> Cruza las redacciones que te ofrezca con tu conocimiento, y revisa si
-> los términos o conceptos usados son descabellados (toda IA se inventa
-> cosas, cuidate de no caer en esa trampa). Nunca le pidas referencias
-> bibliográficas, porque se va equivocar.
+- Una muy breve pero con consejos útiles: [Tips for writing the perfect
+  IMRAD
+  manuscript](https://www.editage.com/insights/tips-for-writing-the-perfect-imrad-manuscript)
 
 ## Criterios de evaluación y escala de valoración
 
-| Criterio de Evaluación                      | Nivel 1 (En Desarrollo)                                | Nivel 2 (Aceptable)                                                     | Nivel 3 (Bueno)                                                   | Nivel 4 (Excelente)                                                           |
-|---------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **Claridad y Contextualización**            | Introducción confusa o vaga; falta de contexto claro.  | Introducción con algo de contexto; algunas partes pueden ser confusas.  | Introducción clara con buen contexto; minorías áreas por mejorar. | Introducción muy clara y bien contextualizada; excelente marco de referencia. |
-| **Formulación de Preguntas e Hipótesis**    | Preguntas e hipótesis no claras o no formuladas.       | Preguntas e hipótesis presentes pero no totalmente claras o relevantes. | Preguntas e hipótesis claras y mayormente relevantes.             | Preguntas e hipótesis muy claras, relevantes y bien formuladas.               |
-| **Uso de Citas y Referencias**              | Citas y referencias incorrectas o ausentes.            | Uso básico de citas y referencias con algunos errores.                  | Buen uso de citas y referencias con pequeños errores.             | Excelente uso de citas y referencias, sin errores.                            |
-| **Adherencia a Instrucciones y Extensión**  | No sigue las instrucciones; extensión inapropiada.     | Sigue las instrucciones en gran medida; extensión aceptable.            | Buena adherencia a las instrucciones; extensión adecuada.         | Excelente adherencia a las instrucciones y extensión perfecta.                |
-| **Calidad de Redacción y Formato**          | Numerosos errores gramaticales/formato inapropiado.    | Algunos errores gramaticales/formato aceptable.                         | Redacción fluida con mínimos errores/formato bueno.               | Redacción impecable y formato excelente.                                      |
-| **Originalidad y Profundidad del Análisis** | Análisis superficial o copiado; falta de originalidad. | Análisis básico con poco desarrollo; algo de originalidad.              | Buen análisis y desarrollo; muestra originalidad.                 | Análisis profundo y original; excelente desarrollo de ideas.                  |
-
-**Notas**:
-
-- La redacción y estructura del documento son esenciales.
-
-- Las referencias y citas son cruciales para respaldar la introducción y
-  dar crédito a las fuentes originales.
-
-- La aplicación adecuada de estilos y formato mejora la legibilidad y
-  presentación del documento.
+| Criterio de Evaluación                   | Nivel 1 (En desarrollo)                              | Nivel 2 (Aceptable)                              | Nivel 3 (Bueno)                                     | Nivel 4 (Excelente)                                                      |
+|------------------------------------------|------------------------------------------------------|--------------------------------------------------|-----------------------------------------------------|--------------------------------------------------------------------------|
+| **Análisis Exploratorio de Datos (AED)** |                                                      |                                                  |                                                     |                                                                          |
+| Herramientas y paquetes utilizados       | Menciona de forma incompleta las herramientas        | Menciona las herramientas sin detalles           | Menciona y describe brevemente las herramientas     | Menciona y describe detalladamente las herramientas                      |
+| Métodos estadísticos aplicados           | Menciona de forma incompleta los métodos             | Menciona los métodos sin detalles                | Menciona y describe brevemente los métodos          | Menciona y describe detalladamente los métodos                           |
+| Visualizaciones generadas                | Presenta visualizaciones sin claridad o relevancia   | Presenta visualizaciones básicas                 | Presenta visualizaciones claras y relevantes        | Presenta visualizaciones detalladas, claras y muy relevantes             |
+| Transformación de datos realizada        | No menciona o realiza de forma incorrecta            | Menciona sin detalles                            | Menciona y describe brevemente                      | Menciona y justifica detalladamente                                      |
+| **Técnicas de Ecología Numérica**        |                                                      |                                                  |                                                     |                                                                          |
+| Elección y aplicación de la técnica      | No justifica su elección o la aplica incorrectamente | Justifica pero no aplica correctamente           | Justifica y aplica correctamente                    | Justifica detalladamente y aplica con maestría                           |
+| Relación con preguntas de investigación  | No relaciona la técnica con las preguntas            | Relaciona de forma superficial                   | Relaciona de forma clara                            | Relaciona de forma clara y detallada                                     |
+| **Citas Apropiadas**                     | Omite citas o las utiliza incorrectamente            | Cita pero no siempre de forma adecuada           | Cita correctamente en la mayoría de casos           | Cita de forma impecable en todos los casos                               |
+| **Uso Apropiado de Figuras y Tablas**    | No incluye o lo hace de forma incorrecta             | Incluye pero sin pies descriptivos o referencias | Incluye con pies descriptivos y algunas referencias | Incluye de forma impecable con pies descriptivos y todas las referencias |
+| **Otros elementos a considerar**         |                                                      |                                                  |                                                     |                                                                          |
+| Consistencia en terminología             | Usa términos de forma inconsistente                  | Usa términos con alguna consistencia             | Usa términos consistentemente                       | Usa términos de forma totalmente consistente y adecuada                  |
+| Claridad en descripción de métodos       | Descripción confusa o incompleta                     | Descripción básica                               | Descripción clara                                   | Descripción detallada y muy clara                                        |
+| Justificación de decisiones              | No justifica o lo hace de forma incorrecta           | Justifica algunas decisiones                     | Justifica la mayoría de decisiones                  | Justifica todas las decisiones de forma detallada                        |
+| **Formato**                              | No sigue recomendaciones de formato                  | Sigue algunas recomendaciones                    | Sigue la mayoría de recomendaciones                 | Sigue todas las recomendaciones de formato de forma impecable            |
+| Uso de voz (activa o pasiva)             | Usa ambas voces de forma inconsistente               | Usa mayoritariamente una voz                     | Usa una voz de forma consistente                    | Usa una voz de forma totalmente consistente y adecuada                   |
 
 ## Referencias
