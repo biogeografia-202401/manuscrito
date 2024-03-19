@@ -38,47 +38,53 @@ estilo_kable <- function(df, titulo = '', cubre_anchura = T) {
 
 > Valor de la práctica: 30 puntos.
 
-> ¡ACTUALIZACIÓN! Plazo de entrega extendido: 20 de octubre, 23:59 horas.
+> Plazo de entrega extendido: 26 de marzo, 16 horas.
 
 > Para el caso de documentos, entrega tu archivo vía correo electrónico en formato nativo. En el caso de usar software de interfaz gráfica, como Microsoft Word o LibreOffice Writer, entrega tanto el archivo nativo .docx o .odt como el PDF. En el caso de usar procesadores de texto como LaTeX, Overleaf, RMmarkdown, entrega tanto el PDF como la carpeta (comprimida en ZIP) conteniendo los archivos necesarios para compilar el PDF.
 
-> En principio, las muestras de hormigas las identificaremos de manera conjunta en el aula.
+> En principio, las muestras de hormigas las identificaremos de manera conjunta en el aula y en tutorías.
 
 # Asignación de manuscrito 1. Diseño de muestreo y colecta de datos de campo
 
-En teoría, **una buena investigación comienza con unas buenas preguntas**. Se supone que las preguntas son las que guían el resto del proceso de investigación desde el comienzo, por lo que formular preguntas y definir objetivos debería ser el primer paso. Pero en el contexto de un ejercicio académico, en concreto, dentro de una materia del segundo o tercer año de carrera, como lo es biogeografía, he optado por no ser muy exigente en el orden de las cosas, por lo que no pediré formular preguntas de forma preceptiva antes de iniciar tu estudio. Ya verás que, con el tiempo, la experiencia (y el trabajo de campo) te dará más información y herramientas para formular buenas preguntas que den inicio a importantes estudios; mientras más aprendas sobre un área de conocimiento específica, mejores preguntas podrás formular, porque sabrás en qué dirección debe avanzarse en función del estado de la cuestión.
+En teoría, el primer elemento de **una buena investigación comienza con unas buenas preguntas** o, si prefieres, con unos buenos objetivos, o con ambos. Se supone que las preguntas son las que guían el resto del proceso de investigación desde el comienzo, por lo que formular preguntas y definir objetivos debería ser el primer paso (un "truquito": en ecología numérica, uno de los mejores lugares para formularse preguntas es, el campo).
 
-También según la teoría, el segundo aspecto más importante de una buena investigación, en orden de prelación, consiste en contar con un buen diseño de muestreo y una colecta de datos de campo realizada de forma sistemática. En mi opinión, considero esta parte la más importante de un trabajo de ecología numérica (incluso por encima de las preguntas), pues si colectamos buenos datos hoy, en el futuro podremos responder múltiples preguntas, incluso algunas que no hayamos formulado inicialmente.
+El segundo elemento de una buena investigación, consiste en contar con un buen diseño de muestreo y una colecta de datos de campo realizada de forma sistemática. En mi opinión, considero esta parte la más importante de un trabajo de ecología numérica (incluso por encima de las preguntas), pues si colectamos buenos datos hoy, en el futuro podremos responder múltiples preguntas, incluso algunas que no hayamos formulado inicialmente.
 
-En investigaciones que siguen diseños estructurados y protocolos de campo, **la sección "Metodología" (el "cómo" de un estudio) normalmente se compone de dos subsecciones: una comúnmente denominada "Diseño de muestreo y colecta de datos de campo", y otra denominada "Técnicas de procesamiento y analíticas". Esta asignación tiene por objetivo que redactes la primera de dichas subsecciones, "Diseño de muestreo y colecta de datos de campo", y que colectes tus muestras**. Por lo tanto, serán dos los entregables:
+En investigaciones que siguen diseños estructurados y protocolos de campo, **la sección "Metodología" (el "cómo" de un estudio) normalmente se compone de dos subsecciones**: una comúnmente denominada "Diseño de muestreo y colecta de datos de campo", y otra denominada "Técnicas de procesamiento y analíticas". Por tal razón, esta asignación tiene dos objetivos:
 
-- Tus muestras de hormigas, colectadas y registradas en plataforma en línea (ver detalles más abajo). Todavía **no** identificarás hormigas, sólo las colectaras y registrarás.
+1. Redactar la primera subsección de la metodología de tu manuscrito, a la que podrías titular "Diseño de muestreo y colecta de datos de campo".
+
+2. Colectar tus muestras.
+
+Por lo tanto, serán dos los entregables de esta práctica:
+
+- Tus muestras de hormigas, colectadas y registradas en plataforma en línea (ver detalles más abajo). Todavía **no** identificarás hormigas, sólo las colectaras y registrarás. Harás el trabajo de campo, y deberás demostrar que colectaste tus hormigas.
 
 - Documento conteniendo la subsección "Diseño de muestreo y colecta de datos de campo". Esta subsección la entregarás en esta asignación, y la reservarás para incorporarla, más adelante, en la sección "Metodología" de tu manuscrito. Podrás mejorarla en el proceso antes de entregar el manuscrito, pero entregarás una primera versión para valoración en esta asignación.
 
 ## Colecta tus datos de campo
 
-Colectarás 15 muestras de hormigas en igual número de hexágonos H3 de resolución 12, en el polígono núcleo del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede central; el diseño está basado en @jose_ramon_martinez_batlle_2023_8404063, dentro del cual se encuentra el documento ["Clasificación de hexágonos del polígono núcleo del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede central, usando coberturas del suelo"](https://github.com/geofis/coberturas-suelo-uasd/blob/main/clasificacion-de-hexagonos.md), el cual explica el procedimiento de generación de los hexágonos y su clasificación.
+Colectarás 15 muestras de hormigas en igual número de hexágonos H3 de resolución 12, en el polígono núcleo del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede central; el diseño está basado en el trabajo @jose_ramon_martinez_batlle_2023_8404063, dentro del cual se encuentra el documento ["Clasificación de hexágonos del polígono núcleo del campus de la Universidad Autónoma de Santo Domingo (UASD) en su sede central, usando coberturas del suelo"](https://github.com/geofis/coberturas-suelo-uasd/blob/main/clasificacion-de-hexagonos.md). Dicho documento explica el procedimiento de generación de los hexágonos y su clasificación.
 
-Los pasos que necesitarás dar para completar tus colectas son los siguientes:
+Los pasos necesarios son los siguientes::
 
 - Carga el diseño de hexágonos H3 en tu celular usando [este vínculo de GoogleMaps](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
 
 - Identifica tus hexágonos asignados (ver la sección siguiente). Márcalos o memoriza su localización.
 
-- Elige un día para realizar las colectas (un día completo será suficiente). Comienza lo más temprano que puedas.
+- Elige un día para realizar las colectas (un día completo será suficiente; prefiere los domingos, pues hay menos gente en el campus). Comienza lo más temprano que puedas.
 
 - El día elegido, realiza las colectas siguiendo estos pasos:
 
-  - Llega al primer hexágono aisgnado usando el [mapa facilitado](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
+  - Llega al primer hexágono asignado usando el [mapa facilitado](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
   
   - Identifica el perímetro del hexágono asignado, para que no colectes fuera de éste.
 
-  - Abre ODK Collect o GIC Collect y llena un formulario nuevo de ODK "Biogeografia-202302". Completa los datos que te pide en la primera página (coordenadas del centroide, foto, etc.). Guarda el formulario presionando el icono del *diskette*, pero déjalo abierto, no lo cierres para que puedas volver a él más tarde. Este formulario será usado a lo largo de todo el hexágono, por eso lo dejarás abierto, y sólo lo cerrarás cuando hayas terminado el hexágono íntegramente.
+  - Abre ODK Collect o GIC Collect y llena un formulario nuevo de ODK "Biogeografia-202401". Completa los datos que te pide en la primera página (coordenadas del centroide, foto, etc.). Guarda el formulario presionando el icono del *diskette*, pero déjalo abierto, no lo cierres para que puedas volver a él más tarde. Este formulario lo usarás hasta que termines de colectar en el hexágono; por esta razón, lo dejarás abierto, y sólo lo cerrarás cuando hayas terminado de colectar en el hexágono.
 
-  - Colecta tantas hormigas como puedas, tanto en suelo como en corteza de troncos, paredes e infraestructuras. Para ello, abre el frasco, humedece el pincel en alcohol (mantén el frasco abierto mientras colectas, lo cual hará que se evapore algo de alcohol, pero no te preocupes, no se evaporará todo), moja la hormiga a colectar para aturdirla, atrápala con el pincel y llévala al frasco. Repite este procedimiento, moviéndote en el hexágono (no te "claves" en un único lugar) sin salir de él por **al menos 20 minutos, máximo 30 minutos**. Recuerda colectar no sólo en suelo, también en troncos y paredes.
+  - Colecta tantas hormigas como puedas; intenta colectar en suelo, en corteza de troncos, paredes e infraestructuras. Para ello, abre el frasco, humedece el pincel en alcohol (mantén el frasco abierto mientras colectas, lo cual hará que se evapore algo de alcohol, pero no te preocupes, no se evaporará todo), moja la hormiga a colectar para "aturdirla", atrápala con el pincel y llévala al frasco. Repite este procedimiento, moviéndote en el hexágono (no te "claves" en un único lugar) sin salir de él por **al menos 20 minutos, máximo 30 minutos**. Recuerda colectar no sólo en suelo, también en troncos y paredes.
 
-  - Cuando haya pasado el tiempo, podrás cerrar el formulario. Para ello, presiona "Siguiente" y rellena la última pregunta del formulario sobre observaciones, si aplica. Si tienes alguna que añadir que no hayas podido rellenar en los campos cerrados del formulario, este es el momento. Si no tienes nada que añadir, presiona siguiente y guarda tu formulario. Puedes marcarlo como finalizado y enviarlo si lo deseas. También puede desmarcar la casilla de "Finalizado", si tienes previsto revisarlo más adelante; pero no olvides subir tu formulario al servidor tan pronto como puedas. Presiona guardar y el formulario se cerrará.
+  - Cuando haya pasado el tiempo, podrás cerrar el formulario. Para ello, presiona "Siguiente" y rellena la última pregunta del formulario sobre observaciones, si aplica. Si tienes alguna que añadir que no hayas podido rellenar en los campos cerrados del formulario, este es el momento. Si no tienes nada que añadir, presiona siguiente y guarda tu formulario. Puedes marcarlo como finalizado y enviarlo si lo deseas. También puedes desmarcar la casilla de "Finalizado", si tienes previsto revisarlo más adelante; pero no olvides subir tu formulario al servidor tan pronto como puedas. Presiona guardar y el formulario se cerrará.
   
   - Inserta una etiqueta en el frasco (lápiz y papel vegetal). Lo mínimo que deberías incluir es: código del hexágono, tus nombres y apellidos, fecha. Si puedes, añade coordenadas del centroide del hexágono en grados y grados decimales (e.g. 18.23424$^\circ$, -71.82321$^\circ$).
   
@@ -89,8 +95,8 @@ Los pasos que necesitarás dar para completar tus colectas son los siguientes:
 
 
 ```{r}
-estudiantes <- read.csv('../../courseid_2928_participants.csv')
-estudiantes$id_estudiante <- paste(estudiantes$Nombre, estudiantes$Apellido.s.)
+secuencial <- paste0(c(paste0(0, paste0(1:9)), 10:25))
+estudiantes <- data.frame(id_estudiante = paste0('estudiante-', secuencial))
 hexagonos <- st_read('data/h3-res-12-no-edificios-3-grupos.gpkg')
 
 # Muestreo estratificado
@@ -104,7 +110,7 @@ asignaciones <- hexagonos %>%
   ungroup()
 
 # Verificar la asignación
-table(asignaciones$grupo, asignaciones$id_estudiante)
+# table(asignaciones$grupo, asignaciones$id_estudiante)
 ```
 
 ```{r}
@@ -132,7 +138,7 @@ clean_text <- function(text) {
 # Unir columnas, limpiar y transformar
 nombres_para_odk <- estudiantes %>%
   mutate(full_name = gsub('\\?', 'ñ', gsub("[[:space:]]{2,}", " ", id_estudiante)),
-         clean_full_name = clean_text(full_name)) %>%
+         clean_full_name = paste0('sem202401', clean_text(full_name))) %>%
   select(clean_full_name, full_name)
 nombres_para_odk %>% write_csv('odk/nombres_para_odk.csv')
 ```
