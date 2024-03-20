@@ -6,7 +6,7 @@ Santo Domingo, República Dominicana
 
 <!-- README.md se genera a partir de README.Rmd. Por favor, edita ese archivo. -->
 
-> Entrega: 28 de noviembre, 23:59 horas.
+> Entrega: 2 de abril, 16 horas.
 
 > Para el caso de documentos, entrega tu archivo vía correo electrónico
 > en formato nativo. En el caso de usar software de interfaz gráfica,
@@ -16,7 +16,7 @@ Santo Domingo, República Dominicana
 > carpeta (comprimida en ZIP) conteniendo los archivos necesarios para
 > compilar el PDF.
 
-# Asignación de manuscrito 3. Introducción
+# Asignación de manuscrito 2. Introducción
 
 ## ¿Qué contiene una introducción?
 
@@ -31,7 +31,7 @@ enfocas en preguntas de investigación específicas (piensa en éstas como
 si fuesen “objetivos específicos”).
 
 Normalmente verás que, en tutoriales sobre redacción, se recomienda que,
-en el último párrafo de la introducción formules tus preguntas de
+en el penúltimo párrafo de la introducción, formules tus preguntas de
 investigación o tus objetivos; si te es posible, también formula
 hipótesis para cada pregunta. Considera una hipótesis como una posible
 respuesta a cada pregunta, pero no te esfuerces en formular “la
@@ -53,7 +53,7 @@ considero útiles son estas:
 
 Mi recomendación es que sigas este flujo:
 
-1.  Investiga sobre tu tema de investigación. La parte más difícil al
+1.  Indaga sobre tu tema de investigación. La parte más difícil al
     formular un estudio son los denominados “vacíos de investigación”
     (*research gaps*). Para identificar un vacío, lee sobre el tema
     específico en cuestión, sobre las técnicas que comúnmente se usan en
@@ -81,32 +81,34 @@ Mi recomendación es que sigas este flujo:
     - Lleva cuenta de los artículos revisados. Los usarás en tu
       introducción y los tendrás que referir apropiadamente. Recuerda
       usar alguna herramienta de apoyo para citas y lista de
-      referencias, como Zotero (se instala en tu PC como una app de
-      escritorio), o las propias herramientas incorporadas en tu
-      procesador de texto elegido. Recuerda que el estilo de cita
-      requerido es el archiconocido APA (por defecto, elegimos la 7ma
-      edición).
+      referencias, como Zotero, o las propias herramientas incorporadas
+      en tu procesador de texto elegido. Recuerda que Zotero se instala
+      en tu PC como una app de escritorio y que el complemento en Word o
+      en el navegador, te ayudan a hacer las citas y la lista de
+      referencias con mayor comodidad. El estilo de cita requerido es el
+      archiconocido APA (por defecto, elegimos la 7ma edición).
     - De cada artículo, concéntrate en su resumen y, si acaso, lee la
       última parte de la introducción. De manera global, cuando hayas
       revisado varios trabajos, identifica los problemas no resueltos
       que se destacan en las más recientes publicaciones. Los vacíos de
-      investigación son muy importantes, porque tú precisamente te
+      investigación son muy importantes porque, precisamente, te
       concentrarás en esos vacíos.
 
-3.  PASO CLAVE: **redacta varias preguntas de investigación candidatas y
-    “revisita” las fuentes que consultaste, ampliando en caso
-    necesario**. Durante esta “revisita” de la bibliografía, concéntrate
-    en los vacíos existentes en la actualidad, y cuál o cuáles de esos
-    vacíos rellenas con tu estudio. Dado que ya tienes tema elegido e,
-    incluso, quizá hasta resultados tienes, este paso te resultará
-    relativamente fácil. Ten presente que esta no es la manera “formal”
-    de redactar un artículo: normalmente, primero se formulan preguntas,
-    luego se va al campo (si aplica) y, siguiendo el método, se obtienen
-    datos para producir resultados resultados; recuerda que en la
-    asignatura lo hicimos al revés. No obstante, el enfoque seguido en
-    la materia funciona bien, pues es más fácil investigar cuando lo que
-    más interesa son los resultados y las técnicas. Amplío algunos
-    detalles relevantes sobre este paso clave:
+3.  PASO CLAVE: **redacta varias preguntas de investigación candidatas,
+    y revisa de nuevo las fuentes que consultaste, ampliando en caso
+    necesario**. Al revisar la bibliografía, concéntrate en los vacíos
+    existentes en la actualidad, y cuál o cuáles de esos vacíos rellenas
+    con tu estudio. Recuerda que tu investigación será sobre ecología
+    numérica de hormigas, donde el diseño de muestreo ya está diseñado
+    (y descrito por ti en la asignación anterior), y donde las técnicas
+    a emplear serán las típicas de ecología numérica. Te servirá
+    refrescar la asignación [Practica 3. Técnicas de ecología numérica,
+    reproducibilidad, redacción, estilos de formato, tablas, citas y
+    referencias](https://github.com/biogeografia-202401/practicas/blob/main/practica-03.md),
+    donde con datos simulados y aplicando técnicas de ecología numérica
+    (las mismas que se aplicarán a tus datos de hormigas) extrajiste
+    conclusiones. Amplío algunos detalles relevantes sobre este paso
+    clave:
 
     - Cuando revisites las fuentes, elige las que aporten a tus
       preguntas/objetivos; las que no aporten, descártalas. Profundiza
@@ -118,8 +120,8 @@ Mi recomendación es que sigas este flujo:
     - Anota una oración sobre cómo el artículo consultado se relaciona o
       puede ser útil para tu pregunta de investigación (los lectores de
       PDF permiten anotar, pero Zotero también tiene herramientas para
-      ello; en esto de anotar PDF, Obsidian es bueno, y también el
-      ChatGPT).
+      ello; en esto de anotar PDF, Obsidian es bueno, y ChatGPT te ayuda
+      a extraer).
     - Es común que citemos un mínimo de 10 fuentes muy relacionadas con
       nuestro problema de investigación. No obstante, la lista de
       referencias final de tu manuscrito tendrá más de 10 entradas,
@@ -159,10 +161,10 @@ Mi recomendación es que sigas este flujo:
     tu redacción.
 
 4.  **Formato:** En cuanto a la forma, redacta el texto entregable
-    aplicando lo aprendido en la [“Practica 2. Métricas básicas de
-    ecología numérica, reproducibilidad, redacción, estilos de formato,
-    tablas, citas y
-    referencias”](https://github.com/biogeografia-202302/practicas/blob/main/practica-02.md).
+    aplicando lo aprendido en la [Practica 3. Técnicas de ecología
+    numérica, reproducibilidad, redacción, estilos de formato, tablas,
+    citas y
+    referencias](https://github.com/biogeografia-202401/practicas/blob/main/practica-03.md).
 
     - Si usas Microsoft Word o LibreOffice Writer, puedes buscar
       plantillas de artículos (puedes usar las de algunas editoriales) o
@@ -196,7 +198,10 @@ Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
   seguir por esa vía. Si ya tienes un documento comenzado, y quieres
   basarte en los estilos de esta plantilla, puedes importar sus estilos
   (los de la plantilla) a tu documento (hay tutoriales sobre ello, como
-  [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
+  [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)). También puedes
+  revisitar los vídeo-tutoriales que grabé para la práctica 3, que se
+  encuentran
+  [aquí](https://drive.google.com/drive/folders/1i_ZO4-NLr-R0Yis5szQ7kBLYjjpklqg2?usp=drive_link).
 - No me canso de repetirlo: consulta al tali. Es viable por correo, sólo
   que es necesario indicar qué problema obtuviste (error, fallo de
   funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: “*me dio
