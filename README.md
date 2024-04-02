@@ -6,6 +6,6 @@
 
 ## [Asignación de manuscrito 2. Introducción](asignacion-02.md)
 
-<!-- ## [Asignación de manuscrito 2. Técnicas de procesamiento y analíticas (subsección de la Metodología)](asignacion-02.md) -->
+<!-- ## [Asignación de manuscrito 3. Materiales y Métodos -->
 
 <!-- ## [Asignación de manuscrito 4. Resultados](asignacion-04.md) -->
